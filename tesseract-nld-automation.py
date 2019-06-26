@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-# Program : tesseract-automation.py
+# Program : tesseract-nld-automation.py
 # Version : 1.6
 # Use : 
-# tesseract-automation.py is a program created to select a pdf or a picture and convert it into text.
-# tesseract-automation.py makes use of tesseract and only creates commandlines to automate things.
+# tesseract-nld-automation.py is a program created to select a pdf or a picture and convert it into text.
+# tesseract-nld-automation.py makes use of tesseract and only creates commandlines to automate things.
 # Dependencies : 
 # This version is used for the dutch language (-l nld).
 # This program only works if tesseract-ocr tesseract-ocr-nld is installed on your computer.
@@ -12,8 +12,8 @@
 # Also make sure you have installed the desired python-modules.
 # How to run :
 # Make the program executable, dubbleclick and choose open in terminal.
-# You can run it also directly from the terminal with : python tesseract-automation.py
-# Or run it from the terminal with : ./tesseract-automation.py
+# You can run it also directly from the terminal with : python tesseract-nld-automation.py
+# Or run it from the terminal with : ./tesseract-nld-automation.py
 #
 # Author : Folkert van der Meulen
 # Date   : 26/06/2019
