@@ -1,14 +1,14 @@
 # tesseract-tools
 
-Program : tesseract-automation.py
+Program : tesseract-nld-automation.py
 
 Version : 1.6
 
 Use : 
 
-tesseract-automation.py is a program created to select a pdf or a picture and convert it into text.
+tesseract-nld-automation.py is a program created to select a pdf or a picture and convert it into text.
 
-tesseract-automation.py makes use of tesseract-ocr and only creates commandlines to automate things.
+tesseract-nld-automation.py makes use of tesseract-ocr and only creates commandlines to automate things.
 
 Dependencies : 
 
@@ -26,7 +26,7 @@ How to run :
 
 Make the program executable, dubbleclick and choose open in terminal.
 
-You can run it also directly from the terminal with : python tesseract-automation.py
+You can run it also directly from the terminal with : python tesseract-nld-automation.py
 
-Or run it from the terminal with : ./tesseract-automation.py
+Or run it from the terminal with : ./tesseract-nld-automation.py
 
