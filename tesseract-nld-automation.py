@@ -43,7 +43,7 @@ import os
 ## get pdf or picture for use in commandline
 root = tk.Tk()
 root.withdraw()
-initialdirectory = '/home/pi/Documents'
+initialdirectory = '~/Documents'
 pdf0or0picturefile = tkFileDialog.askopenfilename(initialdir = initialdirectory, filetypes=[('Supported types',('.pdf','.jpg','.png','.tif'))], title='Load pdf or picture')
 extension = pdf0or0picturefile.split(".", pdf0or0picturefile.count("."))[1]
 output0directory = pdf0or0picturefile.split(".", pdf0or0picturefile.count("."))[0]
@@ -57,7 +57,7 @@ if extension == 'pdf':
    print "  file is pdf"
    print "---------------"
    print "\n"
-   mkdir0output0directory = 'mkdir ' + output0directory
+   mkdir0output0directory = "mkdir " + "\'" + output0directory + "\'"
    os.system(mkdir0output0directory)
 
    # Extract jpg's from pdf's. Quick and dirty. Between markers (#-), Credits to Ned Batchelder :
@@ -100,7 +100,7 @@ if extension == 'pdf':
    #-
 
    #get filenames in directory in textfile
-   os.system('ls ' + output0directory + ' > ' + output0directory + '/ls-output.txt') 
+   os.system("ls " + "\'" + output0directory + "\'" + " > " + "\'" + output0directory + "\'" + "/ls-output.txt") 
 
    #read textfile lines and convert jpg in txt
    lines = [line.rstrip('\n') for line in open(output0directory + '/ls-output.txt')]
